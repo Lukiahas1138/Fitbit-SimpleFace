@@ -1,0 +1,54 @@
+.sensor-data {
+  font-family: System-Light;
+  fill: orange;
+  font-size: 30;
+}
+
+#digClock {
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 12;
+  text-anchor: middle;
+  x: 50%;
+  y: 40%;
+  fill: white;
+}
+
+#dayDate {
+  font-size: 30;
+  font-family: System-Light;
+  text-length: 12;
+  text-anchor: middle;
+  x: 50%;
+  y: $-40;
+  fill: white;
+}
+#workWeek {
+  font-size: 30;
+  font-family: System-Light;
+  text-length: 8;
+  text-anchor: middle;
+  x: 50%;
+  y: $;
+  fill: white;
+}
+
+#bat-data {
+  text-anchor: end;
+  x:100%-10;
+  y:50%+5;
+}
+
+#stp-data {
+  text-anchor: start;
+  text-length: 12;
+  x:0+10;
+  y:100%-10;
+}
+
+#hrm-data {
+  text-anchor: end;
+  text-length: 8;
+  x:100%-10;
+  y:100%-10;
+}

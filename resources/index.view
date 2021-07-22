@@ -1,0 +1,22 @@
+<svg fill="black">
+  <svg>
+    <arc id="bat-bar" x="10%" y="0" width="80%" height="15%" fill="gray"
+    arc-width="10" start-angle="-90" sweep-angle="180" />
+  </svg>
+  <svg x="10%" y="0" height="30%" width="80%">
+    <text id="bat-data" class="sensor-data">{ ... }</text>
+  </svg>
+  <svg x="0" y="30%" height="40%" width="100%">
+    <text id="digClock">Clock</text>
+    <text id="dayDate">Date</text>
+    <text id="workWeek">WorkWeek</text>
+  </svg>
+  <svg x="10%" y="65%" height="30%" width="80%">
+    <text id="stp-data" class="sensor-data">{ ... }</text>
+    <text id="hrm-data" class="sensor-data">{ ... }</text>    
+  </svg>
+  <svg>
+    <arc id="stp-bar" x="10%" y="85%" width="80%" height="15%" fill="purple"
+    arc-width="10" start-angle="-90" sweep-angle="-180" />
+  </svg>
+</svg>
